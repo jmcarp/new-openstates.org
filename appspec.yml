@@ -5,10 +5,10 @@ files:
     destination: /tmp/cd-new-openstates.org
 hooks:
   BeforeInstall:
-    - location: ansible/before-install.sh
+    - location: deployment/before-install.sh
       timeout: 300
       runas: root
   AfterInstall:
-    - location: scripts/after-install.sh
-      timeout: 300
+    - location: deployment/after-install.sh
+      timeout: 600
       runas: root
