@@ -11,7 +11,7 @@ module.exports = {
       filename: "[name]-[hash].js",
   },
 
- 	devtool: "source-map", // enable source-maps
+  devtool: "source-map", // enable source-maps
   module: {
     rules: [
       {
